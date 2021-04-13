@@ -1,0 +1,32 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianoSAraujo/forkify.git"
+  },
+  "author": "Fabiano Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabianoSAraujo/forkify/issues"
+  },
+  "homepage": "https://github.com/fabianoSAraujo/forkify#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "core-js": "^3.10.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
